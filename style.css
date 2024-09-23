@@ -1,0 +1,77 @@
+.navbar {
+    background-color: white;
+    padding: 20px 0;
+  }
+
+  .navbar-brand img {
+    height: 40px; /* Adjust logo height */
+  }
+
+  .nav-link {
+    color: black;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+
+  .btn-outline-dark {
+    border-color: black;
+    color: black;
+  }
+
+  .btn-outline-dark:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .btn-dark {
+    background-color: black;
+    color: white;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+.for-text h1{
+    font-size:4em;
+    font-family: Arial;
+}
+.for-text p{
+    font-size:25px;
+    font-family: Arial;
+    line-height:1.5;
+}
+.for-text button{
+    
+    border-radius: 20px;
+    border: 1px solid #fff;
+    background-color: #006241;
+    color: #fff;
+    height: 35px;
+    width: 180px;
+    font-weight: bold;
+}
+.MENU a{
+    font-weight: bold;
+    padding-left: 15px;
+}
+.f-logo{
+    padding-left: 35px;
+    font-size: 35px;
+    word-spacing: 20px;
+    
+  }
+  @media (max-width:400px){
+    .for-text{
+     font-size:10px;
+    }
+    .for-text p{
+      font-size: 15px;
+    }
+    .for-text h1{
+      font-size:25px;
+    }
+    .para{
+      font-size: 8px;
+    }
+  }
